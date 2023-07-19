@@ -1,8 +1,53 @@
-nav > ul > li {
-    display: inline;
-    margin-right: 20px;
+nav > ul{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+}
+nav li{
+    list-style: none;
+    margin-right:20px;
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+
+}
+nav li:hover{
+    background-color: chartreuse;
+    
 }
 label{
     display: block;
     margin-bottom: 20px;
+}
+td{
+    border: 5px solid tomato;
+    font-size:  50px;
+    padding: 10px;
+    
+}
+table{
+    margin-left: 20px;
+    color: rgb(12, 1, 22);
+    padding: 10px;
+    background-color: rgb(170, 61, 61);
+    border-collapse: collapse;
+}
+th{
+    font-size: 45px;
+    padding: 10px;
+}
+caption{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: darkcyan;
+    background-color: black;
+}
+.dass{
+    background-color: rgb(177, 168, 116);
+    color: rgb(7, 7, 0);
+    font-size: 30px;
 }
